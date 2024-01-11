@@ -13785,4 +13785,12 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.classLogoResponsive {
+  position: absolute;
+}
+@media (min-width: lg) {
+  .classLogoResponsive {
+    position: relative;
+  }
 }/*# sourceMappingURL=custom-bootstrap.css.map */

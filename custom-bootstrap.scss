@@ -76,3 +76,11 @@ $spacers: map-merge($spacers, $new-spacers);
 
 // il flag !default serve a creare una variabile ma solamente nel caso in cui quella variabile NON sia stata già
 // definita
+
+.classLogoResponsive {
+  position: absolute;
+
+  @media (min-width: lg) {
+    position: relative;
+  }
+}
