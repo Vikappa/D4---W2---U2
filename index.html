@@ -5,66 +5,397 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BOOSTRAP PERSONALIZZATO!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="./custom-bootstrap.css" />
 </head>
 
 <body>
-  <main>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/logo.svg"></a>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <!-- Altri link della navbar -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Browse</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Landings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Accounts</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Link Dropdown con posizionamento relativo -->
-        <div class="ms-auto" style="position: relative;">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown link
-              </a>
-              <ul class="dropdown-menu" style="position: absolute;">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Burger Menu -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- Altri link della navbar -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Browse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Landings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accounts</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+
+      <!-- Link Dropdown con posizionamento relativo -->
+      <div class="ms-auto" style="position: relative;">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" style="position: absolute;">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Burger Menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <div class="hero bg-primary">
+    <div class="container col-6">
+      <div class="row d-flex align-items-center">
+        <div class="container col-6">
+          <div class="row flex-column align-items-center">
+            <h1>Welcome Web Students!</h1>
+            <p>Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.
+            </p>
+            <div>
+              <button class="btn-primary">Browse Courses</button>
+              <button class="btn-secondary">Are You Instructor?</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <img src="./assets/hero-img.png" alt="hero img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <aside class="bg-secondary">
+    <div class="container m-0">
+
+      <div class="row gap-5">
+
+        <div class="container col-3">
+          <div class="row align-items-center p-1 text-nowrap">
+
+            <div class="col-3">
+              <img src="./assets/avatar-4.jpg" class="img-fluid rounded-circle">
+            </div>
+
+            <div class="container col-9">
+
+              <div class="row flex-column">
+
+                <h2>30,000 online courses</h2>
+                <h3>Enjoy a variety of fresh topics</h3>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="container col-3">
+          <div class="row align-items-center p-1 text-nowrap">
+
+            <div class="col-3">
+              <img src="./assets/avatar-4.jpg" class="img-fluid rounded-circle">
+            </div>
+
+            <div class="container col-9">
+
+              <div class="row flex-column">
+
+                <h2>30,000 online courses</h2>
+                <h3>Enjoy a variety of fresh topics</h3>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="container col-3">
+          <div class="row align-items-center p-1 text-nowrap">
+
+            <div class="col-3">
+              <img src="./assets/avatar-4.jpg" class="img-fluid rounded-circle">
+            </div>
+
+            <div class="container col-9">
+
+              <div class="row flex-column">
+
+                <h2>30,000 online courses</h2>
+                <h3>Enjoy a variety of fresh topics</h3>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
 
 
 
+      </div>
+
+    </div>
+  </aside>
+
+  <main class="container">
+
+    <h2>Recomended to you</h2>
+
+    <div class="row justify-content-evenly">
+
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
 
 
 
+    </div>
+
+    <h2>Recomended to you</h2>
+
+    <div class="row justify-content-evenly">
+
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
 
 
+
+    </div>
+
+    <h2>Recomended to you</h2>
+
+    <div class="row justify-content-evenly">
+
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card col-2 m-0 p-0 border-2">
+        <img src="./assets/course-graphql.jpg" class="card-img-top rounded-2" alt="" />
+        <div class="card-body p-0 text-lg-start">
+          <h5 class="card-title p-2 fw-bold">GraphQl: introduction to graphQL for beginners</h5>
+          <p class="card-text text-grey text-center fs-6 lh-1">
+            2h 40m Advance
+          </p>
+          <p class="text-center">★★★★★ (1,500)</p>
+          <p class="text-center">$500</p>
+          <hr>
+          <div class="d-flex align-items-center">
+
+            <img class="col-2 rounded-circle m-1" src="./assets/avatar-2.jpg">
+            <p class="col-9">Brooklin Simmons</p>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
