@@ -19,7 +19,11 @@
 
 $body-font-family: 'feather', sans-serif; // Sostituisci 'Your Font' con il tuo tipo di carattere desiderato
 
-
+.customRidimensionatore {
+  @media screen and (min-width:992px) {
+    height: 3.3rem;
+  }
+}
 
 // ora personalizzo
 
@@ -33,6 +37,7 @@ $new-theme-colors: (
   'primary': #7153F9,
   'secondary': #FFFFFF,
   'light' : #F5F4F8,
+  'grey' : rgb(226, 226, 226),
 );
 
 $new-theme-colors-text: (
