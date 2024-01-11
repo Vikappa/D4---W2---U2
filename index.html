@@ -10,65 +10,74 @@
 </head>
 
 <body class=" bg-light">
+
+
+
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-      <a class="navbar-brand classLogoResponsive" href="#"><img src="./assets/logo.svg"></a>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Browse</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Landings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pages</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Accounts</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="d-flex ms-auto">
-        <div class="d-flex " style="position: relative;">
+      <div class="row w-100 align-items-center">
 
 
+
+        <img src="./assets/logo.svg" class="navbar-brand classLogoResponsive col-2 col-lg-1">
+
+        <div class="collapse navbar-collapse col-4" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-
-              <div class="d-flex align-items-center justify-content-end">
-
-
-                <img src="./assets/bell.svg" class="col-2">
-                <a class="nav-link dropdown-toggle col-2 mx-1" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <img src="./assets/avatar-1.jpg" class="rounded-circle img-thumbnail img-fluid ">
-                </a>
-                <ul class="dropdown-menu" style="position: absolute;">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-
-
-              </div>
-
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Browse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Landings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accounts</a>
             </li>
           </ul>
+        </div>
+
+        <div class="d-flex ms-auto col-9 col-lg-5 justify-content-end">
+          <div class="d-flex " style="position: relative;">
 
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
 
+                <div class="d-flex align-items-center justify-content-end">
+
+
+                  <img src="./assets/bell.svg" class="col-2">
+                  <a class="nav-link dropdown-toggle col-2 mx-1" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="./assets/avatar-1.jpg" class="rounded-circle img-thumbnail img-fluid p-0">
+                  </a>
+                  <ul class="dropdown-menu" style="position: absolute;">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+
+
+                </div>
+
+              </li>
+            </ul>
+
+
+            <button class="navbar-toggler mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+          </div>
 
         </div>
 
       </div>
-
     </div>
   </nav>
 
