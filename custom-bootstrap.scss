@@ -10,6 +10,17 @@
 @import 'scss/functions'; // l'import di functions è necessario per far funzionare "variables"
 @import 'scss/variables'; // qui sono definite le mappe colore originali
 
+@font-face {
+  font-family: 'feather';
+  src: url('/assets/feather.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$body-font-family: 'feather', sans-serif; // Sostituisci 'Your Font' con il tuo tipo di carattere desiderato
+
+
+
 // ora personalizzo
 
 $new-primary: rgb(0, 255, 0);
